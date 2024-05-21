@@ -1,0 +1,471 @@
+body {
+    background-image: url(images/codingbackground.jpg);
+    font-size: 18px;
+    margin: 0px;
+}
+
+#aliyahlogo {
+    width: 300px;
+    height: 50px;
+}
+
+header {
+    background-color: rgb(1, 21, 58);
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+#headerp {
+    width: 700px;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/*main headng box main page*/
+#moveHeading {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    /* used another div to move the whole heading including the border to the center*/
+}
+
+
+#heading {
+    border: black solid 15px;
+    border-style: inset;
+    width: 50vw;
+
+}
+
+#navbarContainer {
+    border: black solid 3px;
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+
+#imageweek1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imageweek2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#imageweek3 {
+    display: flex;
+    margin: auto;
+    width: 40px;
+    height: 80px;
+    justify-content: center;
+}
+
+a {
+    color: azure
+}
+
+
+#navbarContainer>nav {
+    border: black solid 3px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+
+/*week one*/
+#weekone {
+    border: black solid 5px;
+}
+
+#weekonetitle {
+    text-align: center;
+
+
+}
+
+/*days for all the weeks when link clicked*/
+.days {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin-top: 0;
+    color: white;
+}
+
+#alarmclockimage {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*week 2*/
+#weektwotitle {
+    text-align: center;
+
+}
+
+#weektwo {
+    border: black solid 5px;
+}
+
+#ssweek2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*week three*/
+#weekthreetitle {
+    text-align: center;
+
+}
+
+#weekthree {
+    border: black solid 5px;
+}
+
+#obstacleweekthree {
+    border: black 5px solid;
+    border-radius: 5px;
+    margin: 5px;
+    width: 600px;
+    height: 250px;
+}
+
+#discoveredweekthree {
+    border: black 5px solid;
+    border-radius: 5px;
+    margin: 5px;
+    width: 600px;
+    height: 250px;
+}
+
+#last2para {
+    display: flex;
+    justify-content: space-between;
+}
+
+#weekthreeimagelink {
+    border: black 5px solid;
+    margin: 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink23 {
+    border: black 5px solid;
+    margin: 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink4 {
+    border: black 5px solid;
+    margin: 5px;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimages {
+    display: flex;
+    justify-content: center;
+}
+
+/*weekthreeimagelink*/
+.weekthreeimagelink {
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink a {
+    text-decoration: none;
+}
+
+#weekthreeimagelink a:hover {
+    color: red;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+/*weekthreeimagelink23*/
+#weekthreeimage2 {
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink23 {
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink23 a {
+    text-decoration: none;
+}
+
+#weekthreeimagelink23 a:hover {
+    color: red;
+}
+
+/*weekthreeimagelink4*/
+#weekthreeimage3 {
+    display: flex;
+    justify-content: center;
+}
+
+#weekthreeimagelink4 a {
+    text-decoration: none;
+}
+
+#weekthreeimagelink4 a:hover {
+    color: red;
+}
+
+/*drumkit week3*/
+#drumkitlettersimage {
+    display: flex;
+    justify-content: center;
+}
+
+#drumkitlink {
+    display: flex;
+    justify-content: center;
+}
+
+#drumkitlink a {
+    text-decoration: none;
+}
+
+#drumkitlink p a:hover {
+    color: red;
+}
+
+#drumkitborder {
+    border: black 5px solid;
+    border-radius: 15px;
+    width: 500px;
+    height: 200px;
+    margin: 10px 20px;
+}
+
+#movedrumkitborder {
+    display: flex;
+    justify-content: center;
+}
+
+/*week 4*/
+#weekfour {
+    border: black solid 5px;
+}
+
+#imageweek4 {
+    display: flex;
+    justify-content: center;
+}
+
+#week4workimage1 {
+    display: flex;
+    justify-content: center;
+}
+
+#week4workimage2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#week4days {
+    display: flex;
+    justify-content: center;
+}
+
+#week4frontendpara {
+    border: black 5px solid;
+    margin: 5px;
+}
+
+#week4backendpara {
+    border: black 5px solid;
+    margin: 5px;
+}
+
+#normalisationimg {
+    display: flex;
+    justify-content: center;
+}
+
+/*week 5*/
+#week5container {
+    border: black 5px solid;
+}
+
+#imageweek5 {
+    display: flex;
+    justify-content: center;
+}
+
+#weekSix {
+    border: black 5px solid;
+}
+
+#week6frontend {
+    border: black 5px solid;
+    display: inline-block;
+    justify-content: flex-start;
+
+}
+
+#week6backend {
+    border: black 5px solid;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+#frontandbackimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgbutton {
+    display: none;
+
+}
+
+#imgbutton2 {
+    display: none;
+
+}
+
+#showimgbutton {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*week 6*/
+#imageweek6 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Second navbarcontainer week4-6*/
+#navbarContainer2 {
+    border: black solid 3px;
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#navbarContainer2>nav {
+    border: black solid 3px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+
+
+/*Third navbarcontainer week 7-9*/
+#navbarContainer3 {
+    border: black solid 3px;
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#navbarContainer3>nav {
+    border: black solid 3px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+/*Fourth navarContainer week 9-11*/
+#movenavbarcontainer4 {
+    display: flex;
+    justify-content: center;
+}
+
+#navbarContainer4 {
+    border: black solid 3px;
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+
+#navbarContainer4>nav {
+    border: black solid 3px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+
+
+#aboutmeContainer {
+    border: 5px black solid;
+}
+
+#aboutme {
+    border: 5px solid black;
+    margin: 5px;
+    width: 96vw;
+}
+
+#hobbiesparagraph {
+    border: black 5px solid;
+    margin: 5px;
+    width: 35vw;
+}
